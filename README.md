@@ -1,26 +1,23 @@
-# Template JSX (react, vite, mui)
+# Koordinatentransformation mit REFRAME-Dienst von swisstopo
 
-Projekt-Template für 3050 WID
-
-Um mit der Vorlage Weiterzuarbeiten ist zwingend Node.js auf dem Rechner zu installieren.
-
-Bei diesem Template handelt es sich um eine Weiterentwicklung des Forks vom Repository
-
-<https://github.com/FHNW-Geomatik/react-mui-vorlage>
-
-(Zuletzt Abgerufen am 30.10.2024)
+Mithilfe der WebApp kann eine Transformation von Koordinaten gerechnet werden.
 
 ## Getting Started
 
 1. Repository klonen:
+
    ```
    git clone
    ```
+
    Alternativ kann auch mithilfe des Github-Desktop das Repository geklont werden
+
 2. `node.js`-Module installieren:
+
    ```
    npm install
    ```
+
 3. Webserver starten
 
    ```
@@ -28,3 +25,11 @@ Bei diesem Template handelt es sich um eine Weiterentwicklung des Forks vom Repo
    ```
 
 4. Auf den angezeigten localhost-Link klicken und die Webseite öffnen
+
+## Funktionsweise
+
+Mithilfe des gewählten Transformators können Koordinaten aus den Inputfelder auf Knopfdruck in ein anderes Koordinatensystem gewechselt werden.
+
+Die Transformation funktioniert auf Basis der REST API von swisstopo. Die Sokumentation kann hier eingesehen werden:
+
+<https://www.swisstopo.admin.ch/en/rest-api-geoservices-reframe-web>
